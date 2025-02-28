@@ -1,0 +1,1 @@
+Scoop bucket for smithery cli.

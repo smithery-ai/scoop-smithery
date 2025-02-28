@@ -1,0 +1,17 @@
+{
+    "version": "0.1.1",
+    "description": "Tool for installing and running MCP servers",
+    "homepage": "https://github.com/smithery-ai/cli",
+    "license": "Unknown",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/smithery-ai/cli/releases/download/cli-beta.v0.1.6/smithery-windows.exe",
+            "hash": "1E7E1CC09A028D07DF5E691A024C3DBC0191B6963FAB792AB9E39B32B45558C1"
+        }
+    },
+    "bin": "smithery-windows.exe",
+    "checkver": {
+        "github": "https://github.com/smithery-ai/cli",
+        "regex": "cli-beta\\.v([\\d.]+)"
+    }
+}
